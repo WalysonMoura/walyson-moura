@@ -1,4 +1,4 @@
-import { Redis } from "@upstash/redis";
+/* import { Redis } from "@upstash/redis";
 import { NextRequest, NextResponse } from "next/server";
 
 const redis = Redis.fromEnv();
@@ -42,6 +42,7 @@ export default async function incr(req: NextRequest): Promise<NextResponse> {
 			new NextResponse(null, { status: 202 });
 		}
 	}
-	await redis.incr(["pageviews", "projects", slug].join(":"));
+	//await redis.incr(["pageviews", "projects", slug].join(":"));
 	return new NextResponse(null, { status: 202 });
 }
+ */
